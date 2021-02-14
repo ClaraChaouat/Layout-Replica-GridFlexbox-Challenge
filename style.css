@@ -1,0 +1,226 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: var(--background-color);
+	width: 900px;
+	max-width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+:root {
+	--background-color: white;
+	--text-color-grey: #9e9ea7;
+	--text-color-black: black;
+	--green-background: #00dd32;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 10% 40% 45%;
+	row-gap: 20px;
+	column-gap: 20px;
+	min-height:100vh;
+}
+
+.vertical-top-left-corner-element {
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	border-radius: 15px;
+}
+
+.page-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: var(--background-color);
+	grid-column: 2/3;
+	grid-row: 1/2;
+	border-radius: 15px;
+}
+
+.page-title-text {
+	color: var(--text-color-black);
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 24px;
+}
+
+.branding-definition {
+	background: var(--background-color);
+	grid-column: 3/4;
+	grid-row: 1/2;
+	border-radius: 15px;
+}
+
+.branding-definition-text {
+	color: var(--text-color-grey);
+	font-size: 14px;
+}
+
+.platora-logo-green-background{
+	background: var(--green-background);
+	grid-column: 2/3;
+	grid-row: 2/3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+
+.platora-logo-green-background-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.platora-logo-green-background-text {
+	color: white;
+	font-size: 25px;
+}
+
+.platora-logo-green-background-logo {
+	height: 35px;
+	padding-right: 10px;
+}
+
+.vertical-middle-element {
+	display: flex;
+	flex-direction: column;
+	grid-column: 1/2;
+	grid-row: 2/4;
+	align-items: center;
+	border-radius: 15px;
+}
+
+.vertical-middle-element-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.vertical-middle-element-line {
+	height: 2px;
+	width: 85px;
+	background-color: var(--text-color-grey);
+	transform: rotate(90deg);
+	margin-bottom: 55px;
+}
+
+.vertical-middle-element-text {
+	transform: rotate(-90deg);
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.vertical-middle-element-text-green-square {
+	height: 10px;
+	width: 10px;
+	background-color: var(--green-background);
+	border-radius: 3px;
+}
+
+.platora-logo-white-background {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #effbf2;
+	grid-column: 3/4;
+	grid-row: 2/3;
+	padding-left: 20px;
+	color: black;
+	border-radius: 15px;
+	border-radius: 15px;
+}
+
+.platora-logo-white-background-container {
+	display: flex;
+}
+
+.platora-logo-white-background-logo {
+	height: 45px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.platora-logo-white-background-title {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.platora-logo-white-background-text {
+	font-size: 10px;
+}
+
+.colours {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #f4f6f6;
+	grid-column: 2/3;
+	grid-row: 3/4;
+	border-radius: 15px;
+}
+
+.colours-circles {
+	display: flex;
+}
+.circle {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	margin-right: 20px;
+	--circle-color:blue;
+	background-color: var(--circle-color);
+}
+
+
+.circle :last-child {
+	margin-right:0;
+}
+
+.circle--green {
+	--circle-color: var(--green-background);
+}
+
+.circle--black {
+	--circle-color: var(--text-color-black);
+}
+
+.circle--grey {
+	--circle-color: var(--text-color-grey);
+}
+
+.circle--white {
+	--circle-color: var(--background-color);
+}
+
+.fonts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #fafbec;
+	grid-column: 3/4;
+	grid-row: 3/4;
+	border-radius: 15px;
+}
+
+.fonts-types {
+	font-weight: normal;
+}
