@@ -1,1 +1,1 @@
-# LayoutGrid
+# Layout challenge using Grid & Flexbox
