@@ -380,7 +380,6 @@ body {
 	grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
 	row-gap: 20px;
 	column-gap: 20px;
-	min-height: 100vh;
 }
 
 .vertical-top-left-corner-element {
