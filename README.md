@@ -3,27 +3,27 @@
   <img width="500" src="./images/screenshot.png"/>
 </p>
 
-## Description
+## Description:woman_teacher:
 The goal of the project is to replicate a given layout using Grid and flexbox.
 
-## Installation
+## Installation:man_mechanic:
 1. Clone this repository from GitHub
 2. Open index.html in your browser.
 
-## Technologies
+## Technologies:man_technologist:
 This project is built using:
 - HTML,
 - CSS.
 
-## Demo
+## Demo:dancing_men:
 Willing to see this project without cloning the repo? Follow the link below :point_down: 
 
 https://layoutgridflexboxchallenge.netlify.app/
 
-## Major learnings
+## Major learnings:woman_student:
 - BEM methodology,
 - Reset css,
 - Normalize css.
 
-## Credit
+## Credit:clap:
 [Designed by Prakhar Neel Sharma](https://dribbble.com/shots/14265057-Platora-branding-material-on-BEHANCE)
