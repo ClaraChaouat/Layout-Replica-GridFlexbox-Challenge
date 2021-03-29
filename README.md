@@ -23,7 +23,8 @@ https://layoutgridflexboxchallenge.netlify.app/
 ## Major learnings:woman_student:
 - BEM methodology,
 - Reset css,
-- Normalize css.
+- Normalize css,
+- Deploying on Netlify
 
 ## Credit:clap:
 [Designed by Prakhar Neel Sharma](https://dribbble.com/shots/14265057-Platora-branding-material-on-BEHANCE)
