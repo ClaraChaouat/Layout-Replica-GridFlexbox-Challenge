@@ -1,4 +1,4 @@
-# Layout challenge using Grid & Flexbox
+# Layout Replica challenge using Grid & Flexbox
 <p align="center">
   <img width="500" src="./images/screenshot.png"/>
 </p>
