@@ -30,3 +30,6 @@ https://layoutgridflexboxchallenge.netlify.app/
 [Designed by Prakhar Neel Sharma](https://dribbble.com/shots/14265057-Platora-branding-material-on-BEHANCE)
 
 ## Feedback  :see_no_evil::hear_no_evil::speak_no_evil: 
+I'm still in a learning process of web development so feel free to shoot me an e-mail If you have any feedbacks/comments or any usefull things that could help me to keep improving :relaxed:.
+
+:email: clara.chaouat@gmail.com
