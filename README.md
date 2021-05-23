@@ -28,3 +28,5 @@ https://layoutgridflexboxchallenge.netlify.app/
 
 ## Credit:clap:
 [Designed by Prakhar Neel Sharma](https://dribbble.com/shots/14265057-Platora-branding-material-on-BEHANCE)
+
+## Feedback  :see_no_evil::hear_no_evil::speak_no_evil: 
